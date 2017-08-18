@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.momecho.MainActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/momecholog"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:background="#00897B"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Mo'Mecho"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/email" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/location"
+        android:paddingLeft="25dp"
+        android:text="No 6, Abolade, Oke-ode,Obantoko, Abeokuta, Ogun state,Nigeria."
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#00897B" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/phone"
+        android:text="(+234) 818 236 9868"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#00897B" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/phone"
+        android:text="(+234) 701 781 7802"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#00897B" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/email"
+        android:text="momecho@gmail.com"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#00897B" />
+    <Button
+        android:id="@+id/aboutUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about us"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF5252"
+        android:layout_marginBottom="3dp"
+        android:textColor="#fff" />
+
+
+
+
+
+</RelativeLayout>
